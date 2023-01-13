@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from 'react';
+import { createContext, useState } from 'react';
 import { Snackbar } from '@mui/material';
 import db from '../services/db';
 
@@ -15,14 +15,11 @@ const CartProvider = ({ children }) => {
     message: '',
   });
   const { vertical, horizontal, open, message } = snackbarState;
+  db.insert(cartItems);
 
   const handleClose = () => {
     setSnackbarState({ ...snackbarState, open: false });
   };
-
-  useEffect(() => {
-    db.insert(cartItems);
-  }, [cartItems]);
 
   // Total number of items in the cart
   const cartItemCount = cartItems?.reduce((itemQuantity, item) => item.itemQuantity + itemQuantity, 0);
