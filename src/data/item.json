@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "productName": "Penhaligon's Opus 1870",
+    "productPrice": 27000,
+    "productImage": "https://res.cloudinary.com/dw4rdnuqh/image/upload/v1672175546/FlourishFragrance/perfume8_irvkz5.jpg",
+    "productDescription": "This fragrance offers you a woody and elegant accord opening with spicy notes of yuzu and cardamom mixed with coriander and bergamot. The heart is a sacred union of incense and Tudor rose, a true heraldic floral emblem of England."
+  },
+  {
+    "id": 2,
+    "productName": "Dolce & Gabbana - the one",
+    "productPrice": 37000,
+    "productImage": "https://res.cloudinary.com/dw4rdnuqh/image/upload/v1672175558/FlourishFragrance/perfume7_psswkf.jpg",
+    "productDescription": "This floral fragrance combines contemporary fruit ingredients with the perfumer's classic palette of white flowers. The scent opens with sparkling bergamot and mandarin blended with notes of lychee and peach."
+  },
+  {
+    "id": 3,
+    "productName": "Guerlain Aqua Allegoria Passiflora",
+    "productPrice": 25000,
+    "productImage": "https://res.cloudinary.com/dw4rdnuqh/image/upload/v1672174493/FlourishFragrance/perfume2_ym34x8.jpg",
+    "productDescription": "Aqua Allegoria Passiflora is a fresh floral-fruity fragrance, focused on the tropical note of passionfruit with the addition of aquatic accords and flowers such as ylang-ylang. The composition contains citrus notes like lemon, grapefruit, mandarin juice and bergamot."
+  },
+  {
+    "id": 4,
+    "productName": "Victoria Secret Bombshell",
+    "productPrice": 20000,
+    "productImage": "https://res.cloudinary.com/dw4rdnuqh/image/upload/v1672174706/FlourishFragrance/perfume3_vmxc1p.jpg",
+    "productDescription": "If you want to feel bougee, confident and bold without breaking the bank, then this is the perfume for you. It is a fruity-floral scent with a blend of citrus, Brazilian purple passion fruit, Madagascan vanilla orchid, and Italian pine"
+  }
+]
