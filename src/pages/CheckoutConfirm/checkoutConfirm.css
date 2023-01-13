@@ -1,0 +1,111 @@
+.checkout-confirm {
+  padding: 4rem 2rem 3rem;
+}
+
+.checkout-confirm__container {
+  padding: 3.2rem;
+  background-color: #f1d9d0;
+  border: 1px solid #ddb4a5;
+  box-shadow: -2px 4px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.checkout-confirm__heading {
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+}
+
+.checkout-confirm__heading span {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.checkout-confirm__icon--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-confirm__icon {
+  width: 10rem;
+}
+
+.checkout-confirm__box {
+  margin: 3.2rem 0 2.4rem;
+  text-align: center;
+}
+
+.checkout-confirm__box--heading {
+  color: #8c4a3b;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  font-size: 1.6rem;
+  letter-spacing: 0.6px;
+}
+
+.checkout-confirm__box--sub,
+.checkout-confirm__text {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.checkout-confirm__text {
+  line-height: 20px;
+  margin-bottom: 2rem;
+}
+
+.checkout-confirm__btn {
+  margin-top: 2.4rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .checkout-confirm {
+    padding: 4rem 3rem 2rem;
+  }
+
+  .checkout-confirm__container {
+    width: 45%;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .checkout-confirm {
+    padding: 4rem 8rem 1rem;
+  }
+
+  .checkout-confirm__container {
+    width: 37%;
+  }
+
+  .checkout-confirm__heading {
+    font-size: 2.7rem;
+  }
+
+  .checkout-confirm__icon {
+    width: 12rem;
+  }
+
+  .checkout-confirm__box {
+    margin: 3.2rem;
+  }
+
+  .checkout-confirm__box--heading,
+  .checkout-confirm__box--sub,
+  .checkout-confirm__text {
+    font-size: 1.8rem;
+  }
+
+  .checkout-confirm__text {
+    line-height: 22px;
+  }
+
+  .checkout-confirm__btn {
+    margin-top: 2.4rem;
+    font-size: 1.8rem;
+  }
+}
