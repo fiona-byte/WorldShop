@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import { routes } from './routes';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Navigation from './components/Navigation/navigation';
+import CartProvider from './context/CartContext';
 
 function App() {
+  const queryClient = new QueryClient();
+
+  const theme = createTheme({
+    typography: {
+      htmlFontSize: 10,
+      fontFamily: 'Roboto',
+    },
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <ThemeProvider theme={theme}>
+        <CartProvider>
+          <Navigation />
+          <Routes>
+            {routes.map(({ path, element }) => (
+              <Route key={`app-${path}`} path={path} element={element} />
+            ))}
+          </Routes>
+        </CartProvider>
+      </ThemeProvider>
+    </QueryClientProvider>
   );
 }
 

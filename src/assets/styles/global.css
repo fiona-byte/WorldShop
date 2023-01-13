@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  background: #d9ccc7;
+}
+
+body {
+  box-sizing: border-box;
+  color: #494545;
+  background: #d9ccc7;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/*                          Global Styles                        */
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.heading {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 1.6rem 2.4rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #8c4a3b;
+  color: #d9ccc7;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 500;
+  border-radius: 5px;
+  display: block;
+  text-transform: uppercase;
+}
+
+.snackbar .MuiSnackbarContent-root {
+  padding: 0.3rem 2.4rem;
+  background-color: #8c4a3b;
+  color: #d9ccc7;
+  font-size: 1.6rem;
+  min-width: fit-content;
+}
+
+/*                  Media Queries                 */
+
+@media all and (min-width: 1500px) {
+  html {
+    font-size: 70%;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media all and (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+
+  .snackbar .MuiSnackbarContent-root {
+    font-size: 1.5rem;
+    max-width: fit-content;
+  }
+}

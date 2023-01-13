@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Getting Started with WorldShop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created with React (Javascript).
 
-## Available Scripts
+## Steps to run the app
 
-In the project directory, you can run:
+1. Clone the repository into your local machine.
+2. Run the command `npm install` to install all the dependencies needed for the app to function properly.
+3. Run the command `npm start` to start the app in the development mode.\
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm start`
+## Additional features implemented
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Product listing page
+2. Product details page
+3. Checkout page
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Approach to the project
 
-### `npm test`
+1. Understanding the project requirements.
+2. Created a rough sketch of what the UI should look like whilst getting inspirations from UI websites such as Dribbble, Behance.
+3. I began the development process by implementing the UI while ensuring that the file structure was in order.
+4. Continued the development process by adding the required functionalities while taking the performance of the app into consideration.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tradeoffs
 
-### `npm run build`
+1. Couldn't use the ChimoneyAPI to display the giftcards as products because some the objects returned null on the min and max recipient denomination value.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to improve the performance of the ﬂipbook (e.g. smoother frame rate)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Use a preloading mechanism eg. MUI skeleton loader.
+2. Optimizing the image without sacrificing the image quality.
