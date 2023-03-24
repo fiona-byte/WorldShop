@@ -22,10 +22,6 @@ This project was created with React (Javascript).
 3. I began the development process by implementing the UI while ensuring that the file structure was in order.
 4. Continued the development process by adding the required functionalities while taking the performance of the app into consideration.
 
-## Tradeoffs
-
-1. Couldn't use the ChimoneyAPI to display the giftcards as products because some the objects returned null on the min and max recipient denomination value.
-
 ## How to improve the performance of the ﬂipbook (e.g. smoother frame rate)
 
 1. Use a preloading mechanism eg. MUI skeleton loader.
