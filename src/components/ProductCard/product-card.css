@@ -57,7 +57,7 @@
 
 .product-card__rating {
   display: flex;
-  align-items: end;
+  align-items: flex-end;
   margin-top: 1rem;
 }
 
